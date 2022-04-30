@@ -1,0 +1,43 @@
+.btn.note-edit-button {
+  position: absolute;
+  background-color: white;
+  border: 2px solid #5665d2;
+  border-radius: 50px !important;
+  right: 5px;
+  top: 82px;
+}
+.btn.note-edit-button:hover {
+  background-color: #5665d2;
+  color: white;
+  cursor: pointer;
+}
+
+.blur-div {
+  border-radius: 5px;
+  /* align-items: center; */
+  justify-content: space-between;
+  font-size: 16px;
+  word-break: break-all;
+  /* height: 100%; */
+  text-overflow: ellipsis;
+  /* word-wrap: break-word; */
+  overflow-y: auto;
+  min-height: 250px;
+}
+.blur-div span {
+  font-size: 16px;
+}
+
+.call-action-btn {
+  border-color: transparent;
+  border-radius: 50%;
+  border: transparent;
+}
+
+.ant-select-selector {
+  width: 253px !important;
+}
+.button-without-border {
+  border: none;
+  border-radius: 0px;
+}

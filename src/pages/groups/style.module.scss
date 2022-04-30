@@ -1,0 +1,33 @@
+@import 'mixins.scss';
+
+//////////////////////////////////////////////////////////////////////////////////////////
+/* COMPANY PAGE */
+
+.container {
+  width: 100%;
+}
+.card_header_new {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  justify-content: center !important;
+  height: 100%;
+  width: 100%;
+}
+.remove_border {
+  border-bottom: 1px !important;
+  border-color: white !important;
+  padding-bottom: 1px !important;
+}
+.row_staff {
+  margin-bottom: 20px;
+}
+.btn_all {
+  width: 170px !important;
+  border-radius: 5px !important;
+  // background-image: linear-gradient(to right, #567cd8 0%, #5987f7 51%, #4573e4 100%) !important;
+  height: 45px;
+}
+.icon {
+  padding-right: 5px;
+}

@@ -1,0 +1,177 @@
+{
+  "personalHealthHistory": [
+    {
+      "type": "checkboxes",
+      "heading": "Childhood illness",
+      "checkboxes": [
+        {
+          "label": "Measles",
+          "type": "checkbox",
+          "formId": "PersonalHealthHistory",
+          "fieldId": 106,
+          "answer": ""
+        },
+        {
+          "label": "Mumps",
+          "type": "checkbox",
+          "formId": "PersonalHealthHistory",
+          "fieldId": 107,
+          "answer": ""
+        },
+        {
+          "label": "Rubella",
+          "type": "checkbox",
+          "formId": "PersonalHealthHistory",
+          "fieldId": 108,
+          "answer": ""
+        },
+        {
+          "label": "Chickenpox",
+          "type": "checkbox",
+          "formId": "PersonalHealthHistory",
+          "fieldId": 109,
+          "answer": ""
+        },
+        {
+          "label": "Rheumatic Fever",
+          "type": "checkbox",
+          "formId": "PersonalHealthHistory",
+          "fieldId": 110,
+          "answer": ""
+        },
+        {
+          "label": "Polio",
+          "type": "checkbox",
+          "formId": "PersonalHealthHistory",
+          "fieldId": 111,
+          "answer": ""
+        }
+      ]
+    },
+    {
+      "type": "checkboxdate",
+      "heading": "Immunizations and dates:",
+      "checkboxdate": [
+        {
+          "label": "Tetanus",
+          "type": "checkboxdate",
+          "formId": "PersonalHealthHistory",
+          "fieldId": 112,
+          "checkboxDate": "",
+          "isActive": false,
+          "enabled": false
+        },
+        {
+          "label": "Pneumonia",
+          "type": "checkboxdate",
+          "formId": "PersonalHealthHistory",
+          "fieldId": 113,
+          "checkboxDate": "",
+          "isActive": false,
+          "enabled": false
+        },
+        {
+          "label": "Hepatitis",
+          "type": "checkboxdate",
+          "formId": "PersonalHealthHistory",
+          "fieldId": 114,
+          "checkboxDate": "",
+          "isActive": false,
+          "enabled": false
+        },
+        {
+          "label": "Chickenpox",
+          "type": "checkboxdate",
+          "formId": "PersonalHealthHistory",
+          "fieldId": 115,
+          "checkboxDate": "",
+          "isActive": false,
+          "enabled": false
+        },
+        {
+          "label": "Influenza",
+          "type": "checkboxdate",
+          "formId": "PersonalHealthHistory",
+          "fieldId": 116,
+          "checkboxDate": "",
+          "isActive": false,
+          "enabled": false
+        },
+        {
+          "label": "MMR Measles",
+          "type": "checkboxdate",
+          "formId": "PersonalHealthHistory",
+          "fieldId": 117,
+          "checkboxDate": "",
+          "isActive": false,
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "type": "textarea",
+      "heading": "List any medical problems that other doctors have diagnosed",
+      "answer": ""
+    },
+    {
+      "uniqueId": "surgeriesTable",
+      "type": "table",
+      "heading": "Surgeries",
+      "table": {
+        "answer": [
+          {
+            "year": "",
+            "reason": "",
+            "hospital": ""
+          },
+          {
+            "year": "",
+            "reason": "",
+            "hospital": ""
+          }
+        ]
+      }
+    },
+    {
+      "uniqueId": "otherHospitalizationTable",
+      "type": "table",
+      "heading": "Other hospitalizations",
+      "table": {
+        "answer": [
+          {
+            "Year": "",
+            "Reason": "",
+            "Hospital": ""
+          }
+        ]
+      }
+    },
+    {
+      "uniqueId": "prescribedDrugsTable",
+      "type": "table",
+      "heading": "List your prescribed drugs and over-the-counter drugs, such as vitamins and inhalers",
+      "table": {
+        "answer": [
+          {
+            "nametheDrug": "",
+            "strength": "",
+            "frequencyTaken": ""
+          }
+        ]
+      }
+    },
+    {
+      "uniqueId": "allergiesTable",
+      "type": "table",
+      "heading": "Allergies to medications",
+      "table": {
+        "answer": [
+          {
+            "nametheDrug": "",
+            "reactionYouHad": ""
+          }
+        ]
+      }
+    }
+  ]
+}

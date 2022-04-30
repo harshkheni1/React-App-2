@@ -1,0 +1,31 @@
+@import 'mixins.scss';
+
+.btnWithAddon {
+  overflow: hidden;
+  position: relative;
+  padding-left: 10px !important;
+  border: none;
+
+  .btnAddon {
+    position: absolute;
+    z-index: 1;
+    top: -1px;
+    left: -1px;
+    bottom: -1px;
+    background-color: rgba($white, 0.2);
+    width: rem(40);
+  }
+
+  .btnAddonIcon {
+    font-size: rem(16);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+.blueBtn {
+  border-radius: 5px !important;
+  background-image: linear-gradient(to right, #5664d2 0%, #567bd6 51%, #346af1 100%) !important;
+  color: white !important;
+}

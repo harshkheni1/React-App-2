@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Dr. Petey Cruiser",
+    "timedata": [
+      {
+        "time": "09:00 AM"
+      },
+      {
+        "time": "09:30 AM"
+      },
+      {
+        "time": "10:00 AM"
+      },
+      {
+        "time": "10:30 AM"
+      },
+      {
+        "time": "11:30 AM"
+      },
+      {
+        "time": "12:00 PM"
+      },
+      {
+        "time": "12:30 PM"
+      },
+      {
+        "time": "01:00 PM"
+      },
+      {
+        "time": "01:30 PM"
+      }
+    ]
+  }
+]

@@ -1,0 +1,329 @@
+@keyframes spin {
+  0% {
+    transform: rotateZ(0);
+  }
+
+  100% {
+    transform: rotateZ(360deg);
+    /* border-width: 20px; */
+    /* width: 50px; */
+    /* height: 50px; */
+  }
+}
+@keyframes scaleIn {
+  from {
+    transform: scale(0.5, 0.5);
+    opacity: 0.5;
+  }
+  to {
+    transform: scale(2.5, 2.5);
+    opacity: 0;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.floatVol {
+	position: absolute;
+	z-index: 9;
+	top: 10px;
+	left: auto;
+	right: 5%;
+	height: 35px;
+	width: 35px;
+	border-radius: 35px;
+	background-color: #b4bfdf6b;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.back-button {
+	position: absolute;
+	z-index: 900000;
+	top: 10px;
+	left: 13%;
+	height: 35px;
+	cursor: pointer;
+	border-radius: 35px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#videos .video-container:first-child .floatVol {
+	left: 5%;
+	right: auto;
+}
+.rotateVol {
+	display: flex;
+	margin-left: -4px;
+	margin-bottom: 3px;
+	flex-direction: column;
+
+	transform: rotateZ(270deg);
+}
+#remote_video {
+  /* margin-top: 10px; */
+  padding-top: 80px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 33%;
+  /* max-height: 42vh; */
+  background-color: #444;
+  /* padding: 10px; */
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+}
+.faker {
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  background-color: white;
+  font-size: 20px;
+  height: 25px;
+  width: 30px;
+  border-radius: 25px;
+}
+.box video {
+  box-shadow: inset 0px 10px 10px rgb(49, 48, 48);
+
+  /* width: 100%!important; */
+  width: 100% !important;
+  object-fit: cover;
+}
+.shadow {
+  position: absolute;
+  width: 100%;
+  /* height: 100%; */
+  z-index: 9;
+  box-shadow: 0px 0px 46px 46px rgba(0, 0, 0, 0.3) !important;
+  top: 99%;
+  left: 0;
+}
+.loaderX {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  z-index: 9;
+}
+.loaderX div {
+  width: 30px;
+  height: 30px;
+  border: 5px solid white;
+  padding: 0px !important;
+
+  animation: spin 1s linear infinite;
+  border-radius: 50%;
+  border-top: 5px solid rgb(113, 143, 243);
+}
+.box span {
+  padding: 10px;
+  position: absolute;
+  bottom: 20px;
+  /* font-family: cursive; */
+
+  background-color: #222;
+  color: white;
+  text-transform: capitalize;
+  padding: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 20px;
+}
+.local video {
+  object-fit: cover;
+  width: 100%;
+  width: 100% !important;
+}
+.Bar {
+  position: fixed;
+
+  bottom: 0;
+  color: rgb(113, 143, 243);
+  background: white;
+  text-align: center;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Bar > span {
+  height: 100%;
+  /* width: 50px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 50, 0.1);
+  margin-left: 1px;
+  flex-direction: column;
+  position: relative;
+  align-self: center;
+}
+.Bar > span span {
+  margin-top: 10px;
+  font-size: 12px;
+  text-transform: uppercase;
+  /* position: absolute;
+  bottom: 5px; */
+}
+.Bar > span:hover {
+  color: white;
+  background-color: rgb(113, 143, 243);
+  cursor: pointer;
+}
+.Bar > span i {
+  font-size: 22px;
+}
+.right {
+  align-self: flex-end;
+  margin-left: auto;
+}
+span.local {
+  width: 80px;
+  height: 100%;
+  margin-left: auto !important;
+  margin-right: 30px;
+  align-self: flex-end;
+  box-sizing: border-box;
+  padding: 0px !important;
+}
+#local_video {
+  width: 100%;
+  object-fit: cover;
+}
+
+.round-text {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  display: flex;
+  text-transform: capitalize;
+  justify-content: center;
+  align-items: center;
+  font-size: 42px;
+  border: 1px solid white;
+}
+.round-text.small {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  color: white;
+  background-color: red;
+  font-size: 12px;
+}
+.speaking {
+  background-color: chartreuse;
+  box-shadow: 0px 5px 20px chartreuse;
+}
+.username {
+  position: absolute;
+  color: white;
+  text-transform: uppercase;
+  z-index: 999;
+  bottom: 70px;
+  left: 41%;
+}
+.floatVol {
+  position: absolute;
+  z-index: 9;
+  top: 10px;
+  left: auto;
+  right: 5%;
+  height: 35px;
+  width: 35px;
+  border-radius: 35px;
+  background-color: #b4bfdf6b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.back-button {
+  position: absolute;
+  z-index: 900000;
+  top: 10px;
+  left: 13%;
+  height: 35px;
+  cursor: pointer;
+  border-radius: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#videos .video-container:first-child .floatVol {
+  left: 5%;
+  right: auto;
+}
+.rotateVol {
+  display: flex;
+  margin-left: -4px;
+  margin-bottom: 3px;
+  flex-direction: column;
+
+  transform: rotateZ(270deg);
+}
+.test {
+  width: 20px;
+  height: 10px;
+  align-self: flex-start;
+  margin-bottom: -3px;
+}
+.stripe2 {
+  width: 30px;
+  margin-left: -4px;
+}
+.fullscreen-instant {
+  position: fixed !important;
+  height: 100vh !important;
+  width: 100vw !important;
+  z-index: 999999 !important;
+  margin: unset !important;
+  max-width: unset !important;
+  /* margin-left: 5vw; */
+  transform: translateX(1.1%);
+  border: 3px solid #444;
+  /* height: 90vh; */
+  z-index: 999;
+  background-color: black !important;
+  top: 0px !important;
+  left: 0px !important;
+  margin-left: -18px !important;
+  max-height: unset !important;
+}
+.fullscreen-instant video {
+  width: 100% !important;
+  height: unset !important;
+  max-width: unset !important;
+  max-height: unset !important;
+}
+@media (max-width: 1200px) {
+  .box {
+    max-width: 50vw;
+    width: 100% !important;
+    height: unset !important;
+  }
+  .box video {
+    width: 100%;
+  }
+}

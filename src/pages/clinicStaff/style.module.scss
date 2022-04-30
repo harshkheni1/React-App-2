@@ -1,0 +1,63 @@
+@import 'mixins.scss';
+
+//////////////////////////////////////////////////////////////////////////////////////////
+/* COMPANY PAGE */
+
+.container {
+  width: 100%;
+}
+.card_header_new {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  justify-content: center !important;
+  height: 100%;
+  width: 100%;
+}
+.address {
+  display: flex;
+}
+.icon {
+  padding-right: 5px;
+}
+.actionDiv {
+  // width: 250px;
+  display: flex;
+}
+
+.manageBtn {
+  height: 30px;
+  margin-left: 15px;
+}
+.div_loader {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.row_staff {
+  margin-bottom: 20px;
+}
+.remove_border {
+  border-bottom: 1px !important;
+  border-color: white !important;
+  padding-bottom: 1px !important;
+}
+.btn_all {
+  width: 170px;
+}
+.btnAddDoctor {
+  padding-right: 40px;
+}
+.avtarImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  object-fit: cover;
+}
+//  td {
+//   padding: 10px 16px !important;
+// }

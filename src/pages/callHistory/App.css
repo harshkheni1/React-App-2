@@ -1,0 +1,4 @@
+.ant-table-filter-trigger-container{
+  all:unset !important;
+  position: static !important;
+}

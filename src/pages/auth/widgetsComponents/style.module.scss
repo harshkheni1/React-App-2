@@ -1,0 +1,24 @@
+@import 'mixins.scss';
+
+//////////////////////////////////////////////////////////////////////////////////////////
+/* COMPANY PAGE */
+
+// .container {
+//   width: 100%;
+// }
+// .card_header_new {
+//   display: flex !important;
+//   flex-direction: column !important;
+//   align-items: flex-start !important;
+//   justify-content: center !important;
+//   height: 100%;
+//   width: 100%;
+// }
+.chips :hover {
+  background-color: rgb(228, 228, 228);
+}
+.btnContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

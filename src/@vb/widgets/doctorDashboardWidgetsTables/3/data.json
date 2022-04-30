@@ -1,0 +1,23 @@
+[
+  {
+    "key": "1",
+    "avatar": "resources/images/avatars/5.jpg",
+    "userName": {"name": "Mary Stanform", "position": "Administrator"},
+    "location": "New York",
+    "time": "12:00"
+  },
+  {
+    "key": "2",
+    "avatar": "resources/images/avatars/1.jpg",
+    "userName": {"name": "Garry Morge", "position": "Support"},
+    "location": "Palo Alto",
+    "time": "2:00"
+  },
+  {
+    "key": "3",
+    "avatar": "resources/images/avatars/2.jpg",
+    "userName": {"name": "Silinda Veyron", "position": "Developer"},
+    "location": "Las Vegas",
+    "time": "3:00"
+  }
+]

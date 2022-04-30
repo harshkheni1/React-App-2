@@ -1,0 +1,45 @@
+/* .ant-table-filter-trigger-container{
+  all:unset !important;
+  position: static !important;
+} */
+.anticon-search {
+  position: absolute !important;
+  left: unset !important;
+}
+.ant-cascader-picker {width: 100%;}
+.ant-row.ant-form-item {width: 100%;}
+.testss {width: 200px; position: relative;}
+.ant-cascader-menus > div {width: auto !important;}
+.ant-cascader-menus > div > div {
+  overflow: hidden !important;
+  overflow-wrap: inherit !important;
+}
+/* .ant-table-filter-column-title {
+  padding: 0px 20px 0px 0px !important;
+}*/
+.smallheader .ant-table-content .ant-table-thead > tr > th {padding: 0px 15px !important;} 
+.ant-picker-cell-inner {position: relative;}
+.ant-picker-cell-inner .ant-badge {
+  position: absolute;
+  right: -7px;
+  top: 4px;
+}
+.ant-select-single .ant-select-selector .ant-select-selection-item, [data-vb-theme="default"] .ant-select-single .ant-select-selector .ant-select-selection-placeholder {
+  line-height: 35px !important;
+}
+.eventname {
+  padding: 10px 10px 0px 10px;
+  font-size: 18px; 
+  font-weight: 600;
+}
+.times {padding-left: 6px;}
+.ant-table-cell .ant-table-filter-trigger-container svg, .ant-table-cell .ant-table-column-sorter-inner {font-size: 17px;}
+.ant-table-cell .ant-table-filter-trigger-container .anticon-search svg {font-size: 20px;}
+.ant-table-cell .ant-table-filter-trigger .anticon {transform: translate(-10%, -50%);}
+.ant-form-item .ant-col-19 {flex: 0 0 100%; max-width: 100%;}
+.appointmenttable table {table-layout: fixed !important;}
+.conformation {display: flex;}
+body .ant-picker-calendar .ant-btn.ant-btn-circle {width: 32px !important;
+  height: 32px !important;
+  padding: 0px !important;}
+.conformation .ant-tag {font-size: 12px !important; text-transform: capitalize !important;}

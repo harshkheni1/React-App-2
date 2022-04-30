@@ -1,0 +1,44 @@
+[
+  {
+    "key": "1",
+    "userName": {
+      "name": "Mary Stanform",
+      "position": "Administrator"
+    },
+    "location": "New York",
+    "value": "+3,125",
+    "avatar": "resources/images/avatars/5.jpg",
+    "active": true,
+    "position": "Support Agent",
+    "name": "Jamie Rockstar",
+    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ..."
+  },
+  {
+    "key": "2",
+    "userName": {
+      "name": "Garry Morge",
+      "position": "Support"
+    },
+    "location": "Palo Alto",
+    "value": "+643",
+    "avatar": "resources/images/avatars/1.jpg",
+    "active": false,
+    "position": "Backoffice Agent",
+    "name": "Jamie Rockstar",
+    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ..."
+  },
+  {
+    "key": "3",
+    "userName": {
+      "name": "Silinda Veyron",
+      "position": "Developer"
+    },
+    "location": "Las Vegas",
+    "value": "+982",
+    "name": "Jamie Rockstar",
+    "position": "Backoffice Agent",
+    "avatar": "resources/images/avatars/2.jpg",
+    "active": true,
+    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ..."
+  }
+]

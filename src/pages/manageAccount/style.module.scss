@@ -1,0 +1,26 @@
+@import 'mixins.scss';
+
+.btn {
+  text-align: end;
+}
+.time_div {
+  width: auto;
+}
+.row_staff {
+  margin-bottom: 20px;
+}
+.remove_border {
+  border-bottom: 1px !important;
+  border-color: white !important;
+  padding-bottom: 1px !important;
+}
+.actionDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 5px;
+}
+.staff_title {
+  padding-top: 10px;
+  padding-right: 10px;
+}

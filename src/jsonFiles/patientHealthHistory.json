@@ -1,0 +1,329 @@
+{
+  "medicalHistory": [
+    {
+      "index": 0,
+      "type": "checkboxes",
+      "checkboxes": [
+        {
+          "fieldId": 0,
+          "label": "Measles",
+          "type": "checkbox",
+          "answer": ""
+        },
+        {
+          "fieldId": 1,
+
+          "label": "Mumps",
+          "type": "checkbox",
+          "answer": ""
+        },
+        {
+          "fieldId": 2,
+
+          "label": "Rubella",
+          "type": "checkbox",
+          "answer": ""
+        },
+        {
+          "fieldId": 3,
+
+          "label": "Chickenpox",
+          "type": "checkbox",
+          "answer": ""
+        },
+        {
+          "fieldId": 4,
+          "label": "Rheumatic Fever",
+          "type": "checkbox",
+          "answer": ""
+        },
+        {
+          "fieldId": 5,
+          "label": "Polio",
+          "type": "checkbox",
+          "answer": ""
+        },
+        {
+          "fieldId": 6,
+          "label": "Measles",
+          "type": "checkbox",
+          "answer": ""
+        },
+        {
+          "fieldId": 7,
+          "label": "Mumps",
+          "type": "checkbox",
+          "answer": ""
+        },
+        {
+          "fieldId": 8,
+          "label": "Rubella",
+          "type": "checkbox",
+          "answer": ""
+        },
+        {
+          "fieldId": 9,
+          "label": "Chickenpox",
+          "type": "checkbox",
+          "answer": ""
+        },
+        {
+          "fieldId": 0,
+          "label": "Rheumatic Fever",
+          "type": "checkbox",
+          "answer": ""
+        },
+        {
+          "fieldId": 10,
+          "label": "Polio",
+          "type": "checkbox",
+          "answer": ""
+        },
+        {
+          "fieldId": 11,
+          "label": "Measles",
+          "type": "checkbox",
+          "answer": ""
+        },
+        {
+          "fieldId": 12,
+          "label": "Mumps",
+          "type": "checkbox",
+          "answer": ""
+        },
+        {
+          "fieldId": 13,
+          "label": "Rubella",
+          "type": "checkbox",
+          "answer": ""
+        },
+        {
+          "fieldId": 14,
+          "label": "Chickenpox",
+          "type": "checkbox",
+          "answer": ""
+        },
+        {
+          "fieldId": 15,
+          "label": "Rheumatic Fever",
+          "type": "checkbox",
+          "answer": ""
+        },
+        {
+          "fieldId": 16,
+          "label": "Polio",
+          "type": "checkbox",
+          "answer": ""
+        },
+        {
+          "fieldId": 17,
+          "label": "Measles",
+          "type": "checkbox",
+          "answer": ""
+        },
+        {
+          "fieldId": 18,
+          "label": "Mumps",
+          "type": "checkbox",
+          "answer": ""
+        },
+        {
+          "fieldId": 19,
+          "label": "Rubella",
+          "type": "checkbox",
+          "answer": ""
+        },
+        {
+          "fieldId": 20,
+          "label": "Chickenpox",
+          "type": "checkbox",
+          "answer": ""
+        },
+        {
+          "fieldId": 21,
+          "label": "Rheumatic Fever",
+          "type": "checkbox",
+          "answer": ""
+        },
+        {
+          "fieldId": 22,
+          "label": "Polio",
+          "type": "checkbox",
+          "answer": ""
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "type": "textArea",
+      "textArea": {
+        "label": "List Other Medical Conditions If Not Listed Above",
+        "type": "textarea",
+        "formId": "MedicalHistory",
+        "fieldId": 90,
+        "answer": ""
+      }
+    },
+    {
+      "index": 2,
+      "type": "radio",
+      "radio": [
+        {
+          "label": "Are You Currently Under A Physician’s Care?",
+          "type": "radio",
+          "options": [
+            {
+              "label": "Yes"
+            },
+            {
+              "label": "No"
+            }
+          ],
+          "doctorId": "",
+          "formId": "MedicalHistory",
+          "fieldId": 91,
+          "answer": ""
+        },
+        {
+          "label": "Are You Being Treated For Cancer Of Any Kind?",
+          "type": "radio",
+          "options": [
+            {
+              "label": "Yes"
+            },
+            {
+              "label": "No"
+            }
+          ],
+          "doctorId": "",
+          "formId": "MedicalHistory",
+          "fieldId": 92,
+          "answer": ""
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": "checkboxes",
+      "checkboxes": [
+        {
+          "fieldId": 23,
+          "label": "Aredia",
+          "type": "checkbox",
+          "options": [
+            { "label": "yes", "value": "" },
+            { "label": "no", "value": "" }
+          ],
+          "answer": ""
+        },
+        {
+          "fieldId": 24,
+          "label": "Zometa",
+          "type": "checkbox",
+          "options": [
+            { "label": "yes", "value": "" },
+            { "label": "no", "value": "" }
+          ],
+          "answer": ""
+        },
+        {
+          "fieldId": 25,
+          "label": "Have You Ever Been Hospitalized?",
+          "type": "checkbox",
+          "options": [
+            { "label": "yes", "value": "" },
+            { "label": "no", "value": "" }
+          ],
+          "answer": ""
+        },
+        {
+          "fieldId": 26,
+          "label": "Women: Are You Pregnant?",
+          "type": "checkbox",
+          "options": [
+            { "label": "yes", "value": "" },
+            { "label": "no", "value": "" }
+          ],
+          "answer": ""
+        },
+        {
+          "fieldId": 27,
+          "label": "Nursing?",
+          "type": "checkbox",
+          "options": [
+            { "label": "yes", "value": "" },
+            { "label": "no", "value": "" }
+          ],
+          "answer": ""
+        },
+        {
+          "fieldId": 28,
+          "label": "Taking Birth Control Pills?",
+          "type": "checkbox",
+          "options": [
+            { "label": "yes", "value": "" },
+            { "label": "no", "value": "" }
+          ],
+          "answer": ""
+        },
+        {
+          "fieldId": 29,
+          "label": "May I Have Your Permission To Speak Directly With Your Physician(s) Regarding Your Treatment?",
+          "type": "checkbox",
+          "options": [
+            { "label": "yes", "value": "" },
+            { "label": "no", "value": "" }
+          ],
+          "answer": ""
+        },
+        {
+          "fieldId": 30,
+          "label": "Have You Ever Experienced An Adverse Reaction During Medical Treatment?",
+          "type": "checkbox",
+          "options": [
+            { "label": "yes", "value": "" },
+            { "label": "no", "value": "" }
+          ],
+          "answer": ""
+        },
+        {
+          "fieldId": 31,
+          "label": "Do You Or Have You Used Prescribed Medical Marijuana?",
+          "type": "checkbox",
+          "options": [
+            { "label": "yes", "value": "" },
+            { "label": "no", "value": "" }
+          ],
+          "answer": ""
+        },
+        {
+          "fieldId": 32,
+          "label": "Do You Or Have You Used Marijuana Recreationally?",
+          "type": "checkbox",
+          "options": [
+            { "label": "yes", "value": "" },
+            { "label": "no", "value": "" }
+          ],
+          "answer": ""
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "textArea",
+      "textArea": {
+        "label": "List All Medications You Are Now Taking (Please Include Over-the-counter Vitamins, Herbs, Pain Relievers And Illegal Drugs)",
+        "type": "textarea",
+        "options": "",
+        "doctorId": "",
+        "formId": "MedicalHistory",
+        "fieldId": 103,
+        "answer": ""
+      }
+    },
+    {
+      "signatureUrl": "",
+      "signatureDate": ""
+    }
+  ]
+}

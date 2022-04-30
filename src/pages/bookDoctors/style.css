@@ -1,0 +1,57 @@
+.searchbar {
+    max-width: 900px;
+    margin: auto;
+    position: relative;
+  }
+  .searchinputs {
+    width: 100%;
+    position: relative;
+  }
+  .searchmenu {
+    position: relative;
+    margin: 0;
+    padding: 4px 0;
+    text-align: left;
+    list-style-type: none;
+    background-color: #ffffff;
+    background-clip: padding-box;
+    border-radius: 8px;
+    outline: none;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.12);
+  }
+  .searchicon {
+    position: absolute;
+    left: 15px;
+  }
+  .dropwdownwraper {
+    position: absolute;
+    left: 0;
+    right: 0;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.12);
+    background-color: #fff;
+    z-index: 100;
+    padding: 15px;
+  }
+  .searchinput {
+    flex: 0 0 auto;
+    width: calc(100% - 250px);
+  }
+  .searchbtn {
+    flex: 0 0 auto;
+    width: 100px;
+  }
+  .searchbtn .btn {
+    border-radius: 0px;
+  }
+  .zipcodewrap {
+    flex: 0 0 auto;
+    width: 150px;
+  }
+  .listtitle {
+      font-size: 24px;
+  }
+
+  .ant-select-selector{
+    width: 253px !important;
+  }
+  

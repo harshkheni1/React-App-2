@@ -1,0 +1,15 @@
+@import 'mixins.scss';
+
+//////////////////////////////////////////////////////////////////////////////////////////
+/* COMPANY PAGE */
+
+.leftBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+img {
+  height: 50px;
+  border-radius: 5px;
+}

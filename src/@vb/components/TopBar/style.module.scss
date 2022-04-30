@@ -1,0 +1,57 @@
+@import 'mixins.scss';
+
+.topbar {
+  padding: 0 rem(30);
+  height: 65px;
+  border-bottom: 1px solid $border;
+  color: $text;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  line-height: 10px !important;
+  box-shadow: 16px 1px 15px rgba(0, 0, 0, 0.1);
+  @media (max-width: $sm-max-width) {
+    padding: 0 rem(16);
+  }
+}
+.topRight {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: flex-end !important;
+}
+
+:global(.vb__layout__separatedHeader) {
+  .topbar {
+    background: $gray-1;
+    padding: 0 rem(20);
+    border-radius: 8px;
+    border: none;
+  }
+}
+
+// dark theme
+[data-vb-theme='dark'] {
+  .topbar {
+    background: $dark-gray-6;
+    color: $dark-gray-1;
+    border-bottom: 1px solid $dark-gray-4;
+  }
+
+  :global(.vb__layout__separatedHeader) {
+    .topbar {
+      border: 1px solid $dark-gray-4;
+    }
+  }
+}
+.clinicinfo {
+  // padding-left: 45px;
+}
+.toggleBtn {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}

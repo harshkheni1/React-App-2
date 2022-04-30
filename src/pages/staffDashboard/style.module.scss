@@ -1,0 +1,265 @@
+@import 'mixins.scss';
+
+.table {
+  white-space: nowrap !important;
+  :global(.ant-table-body) {
+    overflow-x: auto !important;
+  }
+}
+
+.textDivider {
+  // display: flex;
+  // flex-direction: row;
+  // flex-wrap: nowrap;
+  // align-items: center;
+  border-bottom: 1px solid rgba(221, 215, 215, 0.562);
+
+  &::before,
+  &::after {
+    content: '';
+    height: 1px;
+    width: 100%;
+    background-color: $gray-2;
+  }
+
+  &Content {
+    flex-shrink: 0;
+    // padding-left: rem(24);
+    padding-right: rem(24);
+    padding-left: 17px !important;
+  }
+}
+
+.item {
+  border-bottom: 1px solid $gray-2;
+
+  &:not(:first-child) {
+    margin-top: rem(30);
+  }
+
+  &:last-child {
+    border-bottom: none;
+
+    *:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.itemHead {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.itemPic {
+  width: rem(40);
+  height: rem(40);
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: $gray-1;
+  text-align: center;
+  vertical-align: middle;
+  margin-right: rem(15);
+  flex-shrink: 0;
+  align-self: flex-start;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+.icon {
+  // padding-right: 5px;
+}
+.actionDiv {
+  display: flex;
+}
+.box {
+  // min-height: 79px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.timeInfo {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 5px;
+}
+
+.nameInfo {
+  // min-width: 150px;
+  padding-top: 15px;
+  // display: flex;
+  // flex-direction: column;
+  // align-items: center;
+  i {
+    font-size: 13px;
+    // padding-left: 5px;
+    padding-right: 5px;
+  }
+  .time {
+    margin-right: 8px;
+    font-size: 13px !important;
+    width: 88px;
+    margin-bottom: 8px;
+  }
+}
+.mainContainer {
+  display: flex !important;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100% !important;
+  // padding-left: 25px;
+  // border-bottom: 1px solid #e4e9f0;
+}
+
+// @media (min-width: 1524px) {
+//   .mainContainer {
+//     display: flex;
+//     align-items: flex-start !important;
+//     justify-content: flex-start !important;
+//   }
+//   .nameInfo {
+//     padding-top: 20px !important;
+//   }
+// }
+
+.borderRemove {
+  border-bottom: none !important;
+  padding-bottom: 1px;
+}
+
+.appointmentBox {
+  display: flex;
+  flex-direction: column;
+  // align-items: center;
+  // justify-content: center;
+  width: 100%;
+  padding-top: 1px;
+}
+
+.div_loader {
+  width: 100%;
+  height: 115px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.div_loaderConfirm {
+  width: 100%;
+  height: 95px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  border: 1px solid rgba(211, 211, 211, 0.562);
+  background-color: rgba(211, 211, 211, 0.144);
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.textDividerA {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+
+  &::before,
+  &::after {
+    content: '';
+    height: 1px;
+    width: 100%;
+    background-color: $gray-2;
+  }
+  &Content {
+    flex-shrink: 0;
+    padding-left: rem(24);
+    padding-right: rem(24);
+  }
+}
+.CircularProgressbar {
+  height: 70px !important;
+}
+
+.CircularProgressbar-path {
+  stroke: red;
+}
+.CircularProgressbar-trail {
+  stroke: gray;
+}
+.CircularProgressbar-text {
+  fill: yellow;
+}
+.CircularProgressbar-background {
+  fill: green;
+}
+.avtarImg {
+  // width: 70px;
+  // border-radius: 50%;
+  // margin-right: 5px;
+
+  border-radius: 100%;
+  height: 70px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  width: 70px;
+}
+.avtarImgBorder {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 100%;
+  height: 70px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  width: 70px;
+}
+.docInfo {
+  width: 100%;
+}
+.nameDiv {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+}
+.DoctorNamelbl {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.imgDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.name {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.btn_manage {
+  color: #5f6294 !important;
+}
+.lottie {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 650px;
+}

@@ -1,0 +1,30 @@
+.selectstimes {
+  display: flex;
+  align-items: center;
+}
+.selectstimes .ant-typography {
+  flex: 0 0 auto;
+  width: 86px;
+}
+.selectstimes .ant-select {
+  flex: 0 0 auto;
+  width: calc(100% - 86px) !important;
+  position: relative;
+}
+.selectstimes .minusbutton {
+  position: absolute;
+  right: -8px;
+  color: #e31004;
+  width: 23px;
+  margin-top: 2px;
+  cursor: pointer;
+}
+.plusbutton {
+  color: #5e638b;
+  margin-top: 10px !important;
+}
+.management-select-selector {
+  border-radius: 0px !important;
+  min-height: 37px !important;
+  border: 1px solid #ddd !important;
+}

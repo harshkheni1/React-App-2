@@ -1,0 +1,28 @@
+@import 'mixins.scss';
+
+//////////////////////////////////////////////////////////////////////////////////////////
+/* COMPANY PAGE */
+
+.container {
+  width: 100%;
+}
+.card_header_new {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  justify-content: center !important;
+  height: 100%;
+  width: 100%;
+}
+.address {
+  display: flex;
+}
+
+.logo {
+  img {
+    height: 25px;
+  }
+  img:nth-child(2) {
+    padding-left: 15px;
+  }
+}

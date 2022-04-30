@@ -1,0 +1,58 @@
+{
+  "familyHealthHistory": [
+    {
+      "type": "tableWithInput",
+      "heading": "Family Details",
+      "relationTable": {
+        "answer": [
+          {
+            "relationName": "Father",
+            "age": "",
+            "significantHealth": ""
+          },
+          {
+            "relationName": "Mother",
+            "age": "",
+            "significantHealth": ""
+          },
+          {
+            "relationName": "Grandmother",
+            "age": "",
+            "significantHealth": ""
+          },
+          {
+            "relationName": "Grandfather",
+            "age": "",
+            "significantHealth": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "table",
+      "heading": "Children",
+      "table": {
+        "answer": [
+          {
+            "Age": "",
+            "SignificantHealthProblems": "",
+            "Gender": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "table",
+      "heading": "Sibling",
+      "table": {
+        "answer": [
+          {
+            "Age": "",
+            "SignificantHealthProblems": "",
+            "Gender": ""
+          }
+        ]
+      }
+    }
+  ]
+}

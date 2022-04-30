@@ -1,0 +1,196 @@
+{
+  "otherProblemsHistory": [
+    {
+      "type": "checkboxes",
+      "heading": "Mental Health:",
+      "checkboxes": [
+        {
+          "label": "Is stress a major problem for you?",
+          "answer": ""
+        },
+        {
+          "label": "Do you feel depressed?",
+          "answer": ""
+        },
+        {
+          "label": "Do you panic when stressed?",
+          "answer": ""
+        },
+        {
+          "label": "Do you have problems with eating or your appetite?",
+          "answer": ""
+        },
+        {
+          "label": "Do you cry frequently?",
+          "answer": ""
+        },
+        {
+          "label": "Have you ever attempted suicide?",
+          "answer": ""
+        },
+        {
+          "label": "Have you ever seriously thought about hurting yourself?",
+          "answer": ""
+        },
+        {
+          "label": "Do you have trouble sleeping?",
+          "answer": ""
+        },
+        {
+          "label": "Have you ever been to a counselor?",
+          "answer": ""
+        }
+      ]
+    },
+    {
+      "heading": "Other Problems",
+      "subheading": "Check if you have, or have had, any symptoms in the following areas to a significant degree and briefly explain.",
+      "form": [
+        {
+          "label": "Skin",
+          "type": "checkbox",
+          "values": "",
+          "doctorId": "",
+          "formId": "OtherProblems",
+          "fieldId": 310,
+          "answer": ""
+        },
+        {
+          "label": "Chest/Heart",
+          "type": "checkbox",
+          "values": "",
+          "doctorId": "",
+          "formId": "OtherProblems",
+          "fieldId": 311,
+          "answer": ""
+        },
+        {
+          "label": "Head/Neck",
+          "type": "checkbox",
+          "values": "",
+          "doctorId": "",
+          "formId": "OtherProblems",
+          "fieldId": 312,
+          "answer": ""
+        },
+        {
+          "label": "Back",
+          "type": "checkbox",
+          "values": "",
+          "doctorId": "",
+          "formId": "OtherProblems",
+          "fieldId": 313,
+          "answer": ""
+        },
+        {
+          "label": "Weight",
+          "type": "checkbox",
+          "values": "",
+          "doctorId": "",
+          "formId": "OtherProblems",
+          "fieldId": 314,
+          "answer": ""
+        },
+        {
+          "label": "Ears",
+          "type": "checkbox",
+          "values": "",
+          "doctorId": "",
+          "formId": "OtherProblems",
+          "fieldId": 315,
+          "answer": ""
+        },
+        {
+          "label": "Intestinal",
+          "type": "checkbox",
+          "values": "",
+          "doctorId": "",
+          "formId": "OtherProblems",
+          "fieldId": 316,
+          "answer": ""
+        },
+        {
+          "label": "Energy level",
+          "type": "checkbox",
+          "values": "",
+          "doctorId": "",
+          "formId": "OtherProblems",
+          "fieldId": 317,
+          "answer": ""
+        },
+        {
+          "label": "Nose",
+          "type": "checkbox",
+          "values": "",
+          "doctorId": "",
+          "formId": "OtherProblems",
+          "fieldId": 318,
+          "answer": ""
+        },
+        {
+          "label": "Bladder",
+          "type": "checkbox",
+          "values": "",
+          "doctorId": "",
+          "formId": "OtherProblems",
+          "fieldId": 319,
+          "answer": ""
+        },
+        {
+          "label": "Ability to sleep",
+          "type": "checkbox",
+          "values": "",
+          "doctorId": "",
+          "formId": "OtherProblems",
+          "fieldId": 320,
+          "answer": ""
+        },
+        {
+          "label": "Throat",
+          "type": "checkbox",
+          "values": "",
+          "doctorId": "",
+          "formId": "OtherProblems",
+          "fieldId": 321,
+          "answer": ""
+        },
+        {
+          "label": "Bowel",
+          "type": "checkbox",
+          "values": "",
+          "doctorId": "",
+          "formId": "OtherProblems",
+          "fieldId": 322,
+          "answer": ""
+        },
+        {
+          "label": "Other pain/discomfort:",
+          "type": "checkbox",
+          "values": "",
+          "doctorId": "",
+          "formId": "OtherProblems",
+          "fieldId": 323,
+          "answer": ""
+        },
+        {
+          "label": "Lungs",
+          "type": "checkbox",
+          "values": "",
+          "doctorId": "",
+          "formId": "OtherProblems",
+          "fieldId": 324,
+          "answer": ""
+        },
+        {
+          "label": "Circulation",
+          "type": "checkbox",
+          "values": "",
+          "doctorId": "",
+          "formId": "OtherProblems",
+          "fieldId": 325,
+          "answer": ""
+        }
+      ]
+    }
+  ]
+}

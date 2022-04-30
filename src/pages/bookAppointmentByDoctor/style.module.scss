@@ -1,0 +1,84 @@
+@import 'mixins.scss';
+
+//////////////////////////////////////////////////////////////////////////////////////////
+/* COMPANY PAGE */
+
+.container {
+  width: 100%;
+}
+.card_header_new {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  justify-content: center !important;
+  height: 100%;
+  width: 100%;
+}
+
+.site-calendar-demo-card {
+  width: 300px;
+  border: 1px solid #f0f0f0;
+  border-radius: 2px;
+}
+.time{
+  font-weight: bold;
+  font-size: 15px;
+}
+.timeButton{
+  border: 1px solid lightgray;
+  width: 100px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px !important;
+  font-size: 15px;
+  margin-right: 7px;
+  margin-top: 7px;
+  border-radius: 5px;
+}
+// .paddingTop{
+//   padding-top: 35px;
+// }
+.button_viewProfile{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+.rating_div{
+  display: flex;
+}
+.detail_text{
+  width: 55%;
+  display: flex;
+  padding-top:10px;
+}
+.address {
+  display: flex;
+}
+.img_doctor{
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  img {
+    width: 100px !important;
+    height: 100px !important;
+
+  }
+}
+.logoPlaceholder{
+  padding-right: 10px;
+}
+.div_paddingTop{
+  padding-top: 13px;
+  padding-bottom: 5px;
+}
+.newClass{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
